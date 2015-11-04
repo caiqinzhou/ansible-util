@@ -1,5 +1,5 @@
 #!/bin/bash
-set -eux
+#set -eux
 
 ANSIBLE_HOME=~/workspace_python/ansible
 cd $ANSIBLE_HOME
