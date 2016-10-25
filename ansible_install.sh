@@ -6,6 +6,7 @@ ANSIBLE_HOME=~/workspace_python/ansible
 
 if [ ! -d "$ANSIBLE_HOME" ]
 then
+	mkdir -p ~/workspace_python/
 	cd ~/workspace_python/
 	git clone git://github.com/ansible/ansible.git --recursive --depth 1
 	sudo easy_install pip
