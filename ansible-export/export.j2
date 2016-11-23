@@ -1,0 +1,3 @@
+{% for host in hosts -%}
+{{ host.ansible_facts.ansible_default_ipv4.address }},{{ host.ansible_facts.ansible_distribution }} {{ host.ansible_facts.ansible_distribution_version }},{{ host.ansible_facts.ansible_processor_vcpus }},{{ (host.ansible_facts.ansible_memtotal_mb*1024*1024) | filesizeformat }}
+{% endfor %}
