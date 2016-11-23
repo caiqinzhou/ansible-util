@@ -1,6 +1,6 @@
 # Instruction
 
-Using to export infomation from ansible facts.
+Export infomation from ansible facts.
 
 # Requirement
 
